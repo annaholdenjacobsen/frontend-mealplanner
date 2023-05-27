@@ -6,11 +6,17 @@ export const SideBar: React.FC = () => {
     <>
       <Container className="sidebar">
         <Container className="sidebar-top">
-        <button className="sidebar-button" onClick={() => {}}>My Profile </button>
-          <button className="sidebar-button" onClick={() => {}}>My MealPlan </button>
+          <button className="sidebar-button" onClick={() => {}}>
+            My Profile{" "}
+          </button>
+          <button className="sidebar-button" onClick={() => {}}>
+            My MealPlan{" "}
+          </button>
         </Container>
         <Container className="sidebar-bottom">
-          <button className="sidebar-button" onClick={() => {}}>Log Out </button>
+          <button className="sidebar-button" onClick={() => {}}>
+            Log Out{" "}
+          </button>
         </Container>
       </Container>
     </>

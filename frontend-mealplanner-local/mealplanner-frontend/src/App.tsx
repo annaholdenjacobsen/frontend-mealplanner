@@ -7,11 +7,12 @@ import { UserPage } from "./pages/UserPage";
 import HomePage from "./pages/Homepage";
 import IngredientsListPage from "./pages/IngredientsListPage";
 import GroceryListPage from "./pages/GroceryListPage";
+import MealPlanPage from "./pages/MealPlanPage";
 function App() {
   return (
     <>
       <Router>
-       <UserPage />
+        <MealPlanPage />
       </Router>
     </>
   );
